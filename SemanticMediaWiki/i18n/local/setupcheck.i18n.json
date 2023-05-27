@@ -1,0 +1,123 @@
+{
+	"$messages" : "Contains messages and keys used within this JSON to avoid duplicate text representations",
+	"smw-setupcheck-dependency-error": {
+		"en": "依赖错误"
+	},
+	"smw-setupcheck-registry-error": {
+		"en": "注册事件错误"
+	},
+	"smw-setupcheck-error": {
+		"en": "内部错误"
+	},
+	"smw-setupcheck-maintenance": {
+		"en": "维护中"
+	},
+	"smw-setupcheck-release": {
+		"en": "版本"
+	},
+	"smw-setupcheck-code": {
+		"en": "代码"
+	},
+	"smw-setupcheck-progress":{
+		"en": "进度"
+	},
+	"smw-setupcheck-db-requirement":{
+		"en": "需要"
+	},
+	"smw-setupcheck-db-title":{
+		"en": "数据库类型"
+	},
+	"smw-setupcheck-db-current-title":{
+		"en": "当前版本"
+	},
+	"smw-setupcheck-db-minimum-title":{
+		"en": "最低版本"
+	},
+	"smw-setupcheck-stack-trace":{
+		"en": "堆栈跟踪"
+	},
+	"smw-setupcheck-how-to-fix-error": {
+		"en": "如何解决本错误"
+	},
+	"smw-setupcheck-why-this-page": {
+		"en": "为什么我会看到这个页面？"
+	},
+	"smw-setupcheck-temporarily-disable": {
+		"en": "要暂时禁用此错误输出并返回到工作的MediaWiki(没有Semantic MediaWiki)，请从<code>LocalSettings.php</code>中删除<code>enableSemantics</code>。"
+	},
+	"smw-setupcheck-requires-db-minimum-version": {
+        "en": "在安装过程中，安装检查发现Semantic MediaWiki定义的数据库环境的最低要求与可用的版本不匹配，Semantic MediaWiki因此安装失败。"
+	},
+	"smw-setupcheck-dependency-requires-semanticmediawiki":{
+		"en": "报告的扩展需要启用Semantic MediaWiki，而目前Semantic MediaWiki<b>并没有启用</b>，添加<code>enableSemantics</code>到<code>LocalSettings.php</code>解决本依赖错误。"
+	},
+	"smw-setupcheck-dependency-multiple-requires-semanticmediawiki":{
+		"en": "报告的扩展需要启用Semantic MediaWiki，而目前Semantic MediaWiki<b>并没有启用</b>，添加<code>enableSemantics</code>到<code>LocalSettings.php</code>解决本依赖错误。"
+	},
+	"smw-setupcheck-dependency-error-multiple": {
+		"en": "多个扩展的依赖项失效，包括:"
+	},
+	"smw-setupcheck-enablesemantics-assistance": {
+		"en": "有关<a href='https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics'>enableSemantics</a>的信息可在相应的帮助页面获得，您也可以向<a href='https://www.semantic-mediawiki.org/wiki/Help:Getting_support'>项目支持</a>寻求帮助。"
+	},
+	"smw-setupcheck-remove-wfloadextension": {
+		"en": "从<code>LocalSettings.php</code>中删除<code> wfLoadExtensionoadeextension ('SemanticMediaWiki')</code>以避免与<code>enableSemantics</code>的任何冲突，并确保正确设置所需的变量和参数。"
+	},
+	"smw-setupcheck-administrator-assistance":{
+		"en": "管理员(或任何具有管理员权限的人)必须运行MediaWiki的<a href='https://www.mediawiki.org/wiki/Manual:Update.php'>update.php</a>或Semantic MediaWiki的<a href='https://www.semantic-mediawiki.org/wiki/Help:SetupStore.php'>setupStore.php</a>维护脚本。"
+	},
+	"smw-setupcheck-administrator-contact-for-information":{
+		"en": "请与有兽档案馆管理员联系以获取有关进度的更多信息。"
+	},
+	"smw-setupcheck-install-assistance":{
+		"en": "您还可以查阅以下页面以获得进一步帮助:<ul><li><a href='https://www.semantic-mediawiki.org/wiki/Help:Installation'>安装</a>说明</li><li><a href='https://www.semantic-mediawiki.org/wiki/Help:Installation/Troubleshooting'>故障排除</a>帮助页面</li></ul>"
+	},
+	"smw-setupcheck-requires-software-update": {
+		"en": "这个问题只能通过更新软件(或环境)来满足需求来解决。"
+	},
+	"smw-setupcheck-invalid-upgrade-key": {
+		"en": "<a href='https://www.semantic-mediawiki.org/'>Semantic MediaWiki</a>已安装并启用，但缺少适当的<a href='https://www.semantic-mediawiki.org/wiki/Help:Upgrade_key'>升级密钥</a>。"
+	},
+	"smw-setupcheck-reason-for-invalid-upgrade-key": {
+		"en": "Semantic MediaWiki的内部数据库结构发生了变化，需要进行一些调整才能完全发挥功能。可能有以下几个原因:<ul><li>对固定属性列表的更改，可能需要额外的表</li><li>对整个表结构或索引要求的更改</li><li>对所选存储或查询引擎的更改</li><li>对所需的<a href='https://www.semantic-mediawiki.org/wiki/Entity_collation'>实体排序的更改</a></li></ul>"
+	},
+	"smw-setupcheck-registry-enablesemantics-conflict": {
+		"en": "<code>LocalSettings.php</code>包含<code>enableSemantics</code>和<code> wfLoadeExtension ('SemanticMediaWiki')</code>强制ExtensionRegistry中止注册过程。"
+	},
+	"smw-setupcheck-registry-invalid-wfloadextension-use" : {
+		"en": "<code> wfLoadeExtension ('SemanticMediaWiki')</code>用于启用SMW。这与另一种方式的调用冲突：<code>enableSemantics</code>"
+	},
+	"smw-setupcheck-stack-trace-abort-condition": {
+		"en": "下面的堆栈跟踪可以指示哪个程序(或扩展)导致了中止。"
+	},
+	"smw-setupcheck-registry-invalid-access":{
+		"en": "某些程序(或扩展)试图在未正确启用的情况下访问Semantic MediaWiki的功能。"
+	},
+	"smw-setupcheck-registry-requires-enablesemantics": {
+		"en": "要使用Semantic MediaWiki或它的功能，必须在<code>LocalSettings.php</code>中添加<code>enableSemantics</code>，这将确保在程序可以继续工作和使用它之前设置所需的变量和参数。"
+	},
+	"smw-setupcheck-config-profile": {
+		"en": "请检查可用的<a href='https://www.semantic-mediawiki.org/wiki/Config_preloading'>默认配置文件</a>的拼写和位置，以及检查<code>LocalSettings.php</code>中的<code>enableSemantics</code>。"
+	},
+	"smw-setupcheck-in-maintenance-mode": {
+		"en": "系统目前正在进行<a href='https://www.semantic-mediawiki.org/'>Semantic MediaWiki</a>扩展及其数据存储库的<a href='https://www.semantic-mediawiki.org/wiki/Help:Upgrade'>升级</a>，我们希望您能耐心等待，并在wiki再次可访问之前允许维护继续进行。"
+	},
+	"smw-setupcheck-reason-for-in-maintenance": {
+		"en": "Semantic MediaWiki试图通过延迟发生在<code>update.php</code>运行后的大多数维护任务，以尽量减少影响和关服时间，但一些数据库相关的更改需要先完成，以避免数据不一致，它可能包括:<ul><li>更改表结构，如添加新的或修改现有字段</li><li>更改或添加表索引</li><li>运行优化(表优化等)或导入任务</li></ul>"
+	},
+	"smw-setupcheck-estimation-of-completion": {
+		"en": "很难预测何时完成升级，因为它取决于数据存储库的大小和可用硬件。"
+	},
+	"smw-setupcheck-progress-key-create-tables":{
+		"en": "正在创建（或升级）表和索引 ..."
+	},
+	"smw-setupcheck-progress-key-post-creation": {
+		"en": "正在执行post创建任务 ..."
+	},
+	"smw-setupcheck-progress-key-table-optimization": {
+		"en": "正在优化表结构 ..."
+	},
+	"smw-setupcheck-progress-key-supplement-jobs": {
+		"en": "正在进行必要的补充工作 ..."
+	}
+}
